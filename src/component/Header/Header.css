@@ -1,0 +1,15 @@
+.header {
+    padding: 15px 100px ;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+nav.header a:hover {
+    color: orange;
+}
