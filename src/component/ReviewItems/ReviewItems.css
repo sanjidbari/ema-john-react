@@ -1,0 +1,46 @@
+.review-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid blanchedalmond;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+.review-item img{
+    width: 91px;
+    height: 91px;
+    border-radius: 5px;
+}
+
+.item-details{
+    display: flex;
+}
+
+.item-details p{
+    margin: 2px 15px;
+}
+
+.item-title{
+    font-size: 21px;
+}
+
+.orange-text{
+    color: #FF9900;
+    font-size: 15px;
+}
+
+.btn-delete{
+    width: 55px;
+    height: 55px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(235, 87, 87, 0.3);
+}
+
+.trash-icon {
+    color: #EB5757;
+    font-size: 24px;
+}

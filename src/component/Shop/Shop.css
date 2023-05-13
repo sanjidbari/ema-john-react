@@ -2,9 +2,29 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products-container{
+
+.products-container {
     margin: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 35px;
+}
+
+.proceed-link{
+    text-decoration: none;
+}
+
+.btn-proceed {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 21px;
+    width: 95%;
+    background: #FF9900;
+    border-radius: 4px;
+    border: 0;
+    padding: 10px;
+    color: white;
 }
