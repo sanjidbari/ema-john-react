@@ -13,3 +13,17 @@ nav.header a {
 nav.header a:hover {
     color: orange;
 }
+nav.header div{
+    display: flex;
+}
+.text-white {
+    color: white;
+    display: flex;
+}
+.text-white > p {
+    margin: 0;
+}
+.text-white > button{
+    margin-left: 5px;
+    padding: 1px 3px;
+}
